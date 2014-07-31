@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.8 on 2014-03-20 at 11:24 (NZDT)-->
+<!--Last edited by Ukelele version 2.2.8 on 2014-07-31 at 21:28 (NZST)-->
 <!--Created by Ukelele version 2.2.7 on 2014-01-11 at 09:11 (NZDT)-->
 <keyboard group="0" id="14844" name="Workman-Dead2" maxout="1">
     <layouts>
@@ -1114,6 +1114,7 @@
         </action>
         <action id="14">
             <when state="none" output="e"/>
+            <when state="p0" output="&#x0026;"/>
             <when state="s1" output="é"/>
             <when state="s2" output="è"/>
             <when state="s3" output="ê"/>
@@ -1121,6 +1122,7 @@
         </action>
         <action id="15">
             <when state="none" output="i"/>
+            <when state="p0" output="$"/>
             <when state="s1" output="í"/>
             <when state="s2" output="ì"/>
             <when state="s3" output="î"/>
@@ -1128,10 +1130,12 @@
         </action>
         <action id="16">
             <when state="none" output="n"/>
+            <when state="p0" output="#"/>
             <when state="s5" output="ñ"/>
         </action>
         <action id="17">
             <when state="none" output="o"/>
+            <when state="p0" output="^"/>
             <when state="s1" output="ó"/>
             <when state="s2" output="ò"/>
             <when state="s3" output="ô"/>
@@ -1147,6 +1151,7 @@
         </action>
         <action id="19">
             <when state="none" output="y"/>
+            <when state="p0" output="*"/>
             <when state="s4" output="ÿ"/>
         </action>
         <action id="b">
@@ -1163,7 +1168,7 @@
         </action>
         <action id="g">
             <when state="none" output="g"/>
-            <when state="p0" output="~"/>
+            <when state="p0" output="%"/>
         </action>
         <action id="h">
             <when state="none" output="h"/>
@@ -1179,7 +1184,7 @@
         </action>
         <action id="m">
             <when state="none" output="m"/>
-            <when state="p0" output="|"/>
+            <when state="p0" output="&#x003E;"/>
         </action>
         <action id="q">
             <when state="none" output="q"/>
@@ -1207,11 +1212,10 @@
         </action>
         <action id="x">
             <when state="none" output="x"/>
-            <when state="p0" output="\"/>
+            <when state="p0" output="&#x003C;"/>
         </action>
         <action id="z">
             <when state="none" output="z"/>
-            <when state="p0" output="/"/>
         </action>
     </actions>
     <terminators>
